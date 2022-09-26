@@ -39,7 +39,7 @@ public class TaskService {
     }
 
     public Task updateTask(Long id) {
-        log.info("Task has been updated");
+        log.info("Task id: {} has been updated", id);
         return null;
     }
 
