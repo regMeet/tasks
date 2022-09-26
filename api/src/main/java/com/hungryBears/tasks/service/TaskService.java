@@ -38,4 +38,9 @@ public class TaskService {
         return list;
     }
 
+    public Task updateTask(Long id) {
+        log.info("Task has been updated");
+        return null;
+    }
+
 }
